@@ -23,7 +23,7 @@ int channels, encoding;
 long rate;
 
 pthread_t tid[6];
-char dirpath[1000] = "/home/zidan/mount/";
+char dirpath[1000] = "/home/zidan/mountable/";
 char fpath[1000];
 int paused;
 char songList[1000][100] = {};
